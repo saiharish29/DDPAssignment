@@ -25,10 +25,12 @@ Usage
 Presentation
 
 Required presentation pitch done in RStudio Presenter is published on
-
+http://rpubs.com/sai_harish/137096
 
 Source Codes
 
 The application is deployed in the following url:
-The source code and course submission is in the following url:
+https://saiharish29.shinyapps.io/ShinyApp2
 
+The source code and course submission is in the following url:
+https://github.com/saiharish29/DDPAssignment.git
