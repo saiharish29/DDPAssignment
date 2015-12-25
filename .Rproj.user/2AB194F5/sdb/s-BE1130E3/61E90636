@@ -1,0 +1,16 @@
+{
+    "contents" : "Shiny application using mtcars dataset (Course Project)\n===\nauthor: Harish Kumar M.P\ndate: `r date()`\n\nPresentation Objective\n========================================================\n\n\n- The objective is to present the Shiny application created as a course \nproject in Developing Data Products course.\n\n\nDesign\n========================================================\n\n\n- The application uses the default “mtcars” dataset installed with R. It \ncontains plot settings for interactive data analysis without much code \nmodifications.\n\n- The application can be accessed [here](https://saiharish29.shinyapps.io/ShinyApp2)\n\n- The data is from the 1974 Motor Trend US magazine and comprises fuel \nconsumption and ten characteristics of automobile design and \nperformance for 32 cars (1973-74 models).\n\n\nTo get summary of mtcars\n========================================================\nSummary of mtcars\n```{r}\nsummary(mtcars)\n```\n\nPlotting\n========================================================\nTo plot in R, just simply run plot(mtcars)\n```{r, echo=FALSE}\nplot(mtcars)\n```\n",
+    "created" : 1451040281299.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "490768868",
+    "id" : "61E90636",
+    "lastKnownWriteTime" : 1451043656,
+    "path" : "~/ShinyApp2/Test.Rpres",
+    "project_path" : "Test.Rpres",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_presentation"
+}

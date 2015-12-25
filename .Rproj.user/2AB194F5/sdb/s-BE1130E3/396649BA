@@ -1,0 +1,16 @@
+{
+    "contents" : "\n# This is the server logic for a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\n\nfx <- function(x,y) {\n        data <- mtcars  \n        tmp <- data[data$cyl == x, ]\n        tmp <- data[data$cyl == x & data$hp <= y, ]\n        \n        out <- summary(tmp$mpg)\n        return (out)\n}\n\n\nshinyServer(\n        function(input, output) {\n                output$mpgId <- renderPrint(fx(input$cyl, input$horse))\n        }\n)",
+    "created" : 1450984125653.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "969507795",
+    "id" : "396649BA",
+    "lastKnownWriteTime" : 1450985178,
+    "path" : "~/ShinyApp2/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

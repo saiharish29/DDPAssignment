@@ -1,0 +1,16 @@
+{
+    "contents" : "\n# This is the user-interface definition of a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\nrequire(markdown)\n\nshinyUI(\n        fluidPage(\n                \n                titlePanel(\"MT Cars Fuel Consumption\"),\n                \n                sidebarPanel(\n                        \n                        h4('Select the cylinders & horse power'),\n                        h3(\"Enter the data\"),\n                        radioButtons(\"am\",\"Transmission Type\",c(\"Automatic\" = \"0\",\"Manual\" = \"1\")),\n                        radioButtons(\"cyl\",\"Cylinders:\", c(\"4\" = \"4\",\"6\" = \"6\",\"8\" = \"8\")),\n                        numericInput('horse','Horse power (70 - 250): ',100,min = 70,max = 250,step = 10)),\n                \n                mainPanel(\n                        tabsetPanel(\n                                tabPanel(\"Summary\",\n                                         mainPanel(\n                                                 h4(\"Summary measures for Miles/Gallon\"),\n                                                 verbatimTextOutput(\"mpgId\")\n                                         )\n                                ),\n                                tabPanel(\"About\",\n                                         mainPanel(includeMarkdown(\"README.md\"))\n                                )\n                        )\n                )\n        )\n)",
+    "created" : 1450984125243.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3929099195",
+    "id" : "86FD9078",
+    "lastKnownWriteTime" : 1450987937,
+    "path" : "~/ShinyApp2/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

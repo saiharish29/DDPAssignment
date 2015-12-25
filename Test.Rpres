@@ -1,0 +1,41 @@
+Shiny application using mtcars dataset (Course Project)
+===
+author: Harish Kumar M.P
+date: `r date()`
+
+Presentation Objective
+========================================================
+
+
+- The objective is to present the Shiny application created as a course 
+project in Developing Data Products course.
+
+
+Design
+========================================================
+
+
+- The application uses the default “mtcars” dataset installed with R. It 
+contains plot settings for interactive data analysis without much code 
+modifications.
+
+- The application can be accessed [here](https://saiharish29.shinyapps.io/ShinyApp2)
+
+- The data is from the 1974 Motor Trend US magazine and comprises fuel 
+consumption and ten characteristics of automobile design and 
+performance for 32 cars (1973-74 models).
+
+
+To get summary of mtcars
+========================================================
+Summary of mtcars
+```{r}
+summary(mtcars)
+```
+
+Plotting
+========================================================
+To plot in R, just simply run plot(mtcars)
+```{r, echo=FALSE}
+plot(mtcars)
+```

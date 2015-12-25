@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"ReadME\"\nauthor: \"Harish\"\ndate: \"Friday, December 25, 2015\"\noutput: html_document\n---\n\nThis application uses “mtcars” dataset installed with R - as part of Developing Data Products course project\n\n\nDataset\n\nIt uses the default \"mtcars\" dataset installed with R. The data is from the 1974 Motor Trend US magazine and comprises fuel consumption and ten characteristics of automobile design and performance for 32 cars (1973-74 models).\n\nApplication description\n\nThis Shiny application displays the fuel consumption based on the transmission type, cylinders and horse power variables.\n\n\nUsage\n\n1.Change the input data value of cylinders, transmission type and/or horse power.\n2.Summary measures for miles/gallon should reflect the change accordingly.\n\nPresentation\n\nRequired presentation pitch done in RStudio Presenter is published on\nhttp://rpubs.com/sai_harish/137096\n\nSource Codes\n\nThe application is deployed in the following url:\nhttps://saiharish29.shinyapps.io/ShinyApp2\n\nThe source code and course submission is in the following url:\n\n",
+    "created" : 1450985469075.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1893529180",
+    "id" : "F5822033",
+    "lastKnownWriteTime" : 1451042843,
+    "path" : "~/ShinyApp2/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "markdown"
+}
